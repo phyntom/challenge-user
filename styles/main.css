@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+* {
+   box-sizing: border-box;
+   padding: 0px;
+   margin: 0px;
+}
+
+body {
+   background-color: rgb(240, 238, 238);
+   font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+   background-color: #222;
+   min-height: 60px;
+   width: 100%;
+}
+
+nav {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 75px;
+}
+
+nav a {
+   color: #fff748;
+   text-decoration: none;
+   text-align: center;
+}
+
+h1 {
+   font-size: 30px;
+}
+
+h2 {
+   font-size: 24px;
+}
+
+.container {
+   margin: 0 50px;
+   padding: 50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.user-icon {
+   display: block;
+   height: 45px;
+   width: 45px;
+   margin: auto;
+}
+.card {
+   margin: 0.5rem;
+   padding: 0.5rem;
+   background: #3c1a5b;
+   box-shadow: 2px 4px 25px rgba(0, 0, 0, 0.1);
+   border-radius: 5px;
+   overflow: hidden;
+   transition: all 0.2s linear;
+}
+.card-content {
+   color: #fff748;
+   text-align: center;
+}
+.card-title {
+   color: #ffffff;
+   text-align: center;
+   text-transform: uppercase;
+}
+.card-button {
+   margin: 1rem;
+   padding: 0.6rem;
+   background: #fff748;
+   color: #3c1a5b;
+   border-radius: 5px;
+   border: none;
+   margin: auto;
+   width: auto;
+   font-size: 10px;
+   text-transform: uppercase;
+}
+
+.card-button:hover {
+   padding: 0.6rem;
+   background: #fad338;
+   color: #292826;
+   border-radius: 6px;
+   width: auto;
+   border: none;
+}
+.card:hover {
+   box-shadow: 2px 8px 45px rgba(0, 0, 0, 0.15);
+   transform: translate3D(0, -2px, 0);
+}
+
+.empty {
+   color: #fff748;
+   text-align: center;
+   text-transform: uppercase;
+}
