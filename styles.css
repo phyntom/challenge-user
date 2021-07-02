@@ -73,11 +73,11 @@ h2 {
    padding: 0.6rem;
    background: #fff748;
    color: #3c1a5b;
-   border-radius: 10px;
+   border-radius: 5px;
    border: none;
    margin: auto;
    width: auto;
-   font-size: 12px;
+   font-size: 10px;
    text-transform: uppercase;
 }
 
@@ -85,7 +85,7 @@ h2 {
    padding: 0.6rem;
    background: #fad338;
    color: #292826;
-   border-radius: 10px;
+   border-radius: 6px;
    width: auto;
    border: none;
 }
