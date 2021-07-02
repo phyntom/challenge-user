@@ -65,6 +65,7 @@ h2 {
    background: #fad338;
    color: #292826;
    border-radius: 10px;
+   width: auto;
    border: none;
 }
 .card:hover {
